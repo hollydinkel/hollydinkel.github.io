@@ -1,84 +1,47 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
+@article{xiang2023trackdlo,
+  title = {{TrackDLO: Tracking Deformable Linear Objects Under Occlusion with Motion Coherence}},
+  author = {Xiang, Jingyi and Dinkel, Holly and Zhao, Harry and Gao, Naixiang and Coltin, Brian and Smith, Trey and Bretl, Timothy},
+  journal={IEEE Robotics and Automation Letters},
+  year = {2023},
+  volume={8},
+  number={10},
+  pages={6179-6186},
+  doi={10.1109/LRA.2023.3303710},
+  abstract = {The TrackDLO algorithm estimates the shape of a Deformable Linear Object (DLO) under occlusion from a sequence of RGB-D images. TrackDLO is vision-only and runs in real-time. It requires no external state information from physics modeling, simulation, visual markers, or contact as input. The algorithm improves on previous approaches by addressing three common scenarios which cause tracking failure: tip occlusion, mid-section occlusion, and self-occlusion. This is achieved through the application of Motion Coherence Theory to impute the spatial velocity of occluded nodes, the use of the topological geodesic distance to track self-occluding DLOs, and the introduction of a non-Gaussian kernel that only penalizes lower-order spatial displacement derivatives to reflect DLO physics. Improved real-time DLO tracking under mid-section occlusion, tip occlusion, and self-occlusion is demonstrated experimentally. The source code and demonstration data are publicly released.},
+  pdf = {https://ieeexplore.ieee.org/document/10214157},
+  code = {https://github.com/RMDLO/trackdlo},
+  preview = {trackdlo_preview.png},
+  video = {https://youtu.be/MxqNJsen5eg},
   selected={true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@inproceedings{dinkel2022RMDLO,
+    author = {Dinkel*, Holly and Xiang*, Jingyi and Zhao, Harry and Coltin, Brian and Smith, Trey and Bretl, Timothy},
+    year = {2022},
+    booktitle={{IEEE ICRA Workshop on Representing and Manipulating Deformable Objects}},
+    title = {{Wire Point Cloud Instance Segmentation from RGBD Imagery with Mask R-CNN}},
+    month = {May},
+    abstract = {Perception of the shapes of deforming objects like wires enables their monitoring and manipulation by autonomous robots. This paper presents detection, classification, and instance segmentation of deformable wires from a cluttered scene in RGBD imagery. This work uses the Detectron2 implementation of Mask R-CNN trained with the PointRend mask head on the UIUCWires dataset as the framework for wire instance segmentation on RGB imagery, a method demonstrated to perform well for the instance segmentation task in previous work. In this work, the instance bitmask is directly used to segment individual object point clouds, an important step toward wire shape representation for manipulation tasks.},
+    pdf = {wire_segmentation.pdf},
+    preview = {wire_segmentation.png},
+    video = {https://youtu.be/eqgZQckCDOY},
+    selected={true}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@inproceedings{xiang2023multidlo,
+    author = {Xiang, Jingyi and Dinkel, Holly},
+    year = {2023},
+    booktitle={{IEEE ICRA Workshop on Representing and Manipulating Deformable Objects}},
+    title = {{Simultaneous Shape Tracking of Multiple Deformable Linear Objects with Global-Local Topology Preservation}},
+    month = {May},
+    abstract = {This work presents an algorithm for tracking the shape of multiple entangling Deformable Linear Objects (DLOs) from a sequence of RGB-D images. This algorithm runs in real-time and improves on previous single-DLO tracking approaches by enabling tracking of multiple objects. This is achieved using Global-Local Topology Preservation (GLTP). This work uses the geodesic distance in GLTP to define the distance between separate objects and the distance between different parts of the same object. Tracking multiple entangling DLOs is demonstrated experimentally. The source code is publicly released. },
+    pdf = {multidlo.pdf},
+    code = {https://github.com/RMDLO/multi-dlo},
+    preview = {multidlo.png},
+    video = {https://youtu.be/hfiqwMxitqA},
+    poster = {multi_dlo_poster.pdf},
+    selected={true}
 }
