@@ -1,11 +1,35 @@
 ---
 ---
 
+@inproceedings{santos2024aiaa,
+    author = {Santos, Jamie and Dinkel, Holly and Di, Julia and Borges, Paulo V.K. and Gouveia Moreira, Marina and Coltin, Brian and Smith, Trey},
+    year = {2024},
+    booktitle={{AIAA SciTech Forum}},
+    title = {{Unsupervised Change Detection for Space Habitats Using 3D Point Clouds}},
+    month = {1},
+    abstract = {Autonomous robotic systems are needed to help maintain spacecraft and space habitats on future long-duration deep-space missions, such as the Gateway space station, which will be uncrewed for extended periods. In this work, we propose an algorithm for scene change detection from raw point clouds to enable autonomous robotic caretaking, using the International Space Station (ISS) as an analog of future space habitats. Currently deployed on the ISS, the Astrobee assistive free-flyer robot uses change detection software to inspect, identify anomalies, and update maps. However, the existing ISS scene analysis software relies on manually-labeled images for detecting changes. In contrast, the algorithm presented in this work eliminates the need for highly manual data annotation by using only raw point clouds as inputs, and is not sensitive to the category of changed objects. From two input point clouds, our algorithm performs change detection using Gaussian Mixture Model (GMM) clustering. Through experiments conducted in a granite table mockup of the ISS at NASA Ames Research Center, we successfully demonstrate the detection of new objects, disappearing objects, and multiple scene changes. To promote further research and development, the source code and benchmarking data are publicly released.},
+    preview = {aiaa2024gt.png},
+    selected={true}
+}
+
+@inproceedings{ta2023sim,
+    author = {Ta*, Minh Quang and Dinkel*, Holly and Abdul-Rashid, Hameed and Dai, Yangfei and Myers, Jessica and Chen, Tan and Geng, Junyi, and Bretl, Timothy},
+    year = {2023},
+    booktitle={{IEEE/RSJ IROS Workshop on Robotics and AI in Future Factory (RAFF)}},
+    title = {{The Impact of Time Step Frequency on the Realism of Robotic Manipulation Simulation for Objects of Different Scales}},
+    month = {10},
+    abstract = {This work evaluates the impact of time step frequency and component scale on robotic manipulation simulation stability. Increasing the time step frequency for small-scale objects is shown to improve simulation stability. This simulation, demonstrating pre-assembly part picking for two object geometries, serves as a starting point for discussing how to improve Sim2Real transfer in robotic assembly processes.},
+    pdf = {IROS2023.pdf},
+    preview = {real2sim_comparison.png},
+    selected={true}
+}
+
 @article{xiang2023trackdlo,
   title = {{TrackDLO: Tracking Deformable Linear Objects Under Occlusion with Motion Coherence}},
   author = {Xiang, Jingyi and Dinkel, Holly and Zhao, Harry and Gao, Naixiang and Coltin, Brian and Smith, Trey and Bretl, Timothy},
   journal={IEEE Robotics and Automation Letters},
   year = {2023},
+  month={8},
   volume={8},
   number={10},
   pages={6179-6186},
@@ -30,6 +54,17 @@
     preview = {multidlo.png},
     video = {https://youtu.be/hfiqwMxitqA},
     poster = {ICRA2023RMDO_poster.pdf},
+    selected={true}
+}
+
+@inproceedings{dinkel2023iac,
+    author = {Dinkel*, Holly and Di*, Julia and Santos, Jamie and Albee, Keenan and Borges, Paulo V.K. and Gouveia Moreira, Marina and Alexandrov, Oleg and Coltin, Brian and Smith, Trey},
+    year = {2023},
+    booktitle={{IAF International Astronautical Congress}},
+    title = {{Multi-Agent 3D Map Reconstruction and Change Detection in Microgravity with Free-Flying Robots}},
+    month = {3},
+    abstract = {Assistive free-flyer robots autonomously caring for future crewed outposts---such as NASA’s Astrobee robots on the International Space Station (ISS)---must be able to detect day-to-day interior changes to track inventory, detect and diagnose faults, and monitor the outpost status. This work presents a framework for multi-agent cooperative mapping and change detection to enable robotic maintenance of space outposts. One agent is used to reconstruct a 3D model of the environment from sequences of images and corresponding depth information. Another agent is used to periodically scan the environment for inconsistencies against the 3D model. Change detection is validated \textit{a posteriori} using real image and pose data collected by Astrobee robots in a ground testbed environment and from microgravity aboard the ISS. This work outlines the objectives, requirements, and algorithmic modules for the multi-agent reconstruction system, including recommendations for its use by assistive free-flyers aboard future microgravity outposts.},
+    preview = {iac2023.png},
     selected={true}
 }
 
@@ -58,14 +93,14 @@
     selected={true}
 }
 
-@inproceedings{dinkel2022RMDLO,
+@inproceedings{dinkel2022RMDOO,
     author = {Dinkel*, Holly and Xiang*, Jingyi and Zhao, Harry and Coltin, Brian and Smith, Trey and Bretl, Timothy},
     year = {2022},
     booktitle={{IEEE ICRA Workshop on Representing and Manipulating Deformable Objects}},
     title = {{Wire Point Cloud Instance Segmentation from RGBD Imagery with Mask R-CNN}},
     month = {5},
     abstract = {Perception of the shapes of deforming objects like wires enables their monitoring and manipulation by autonomous robots. This paper presents detection, classification, and instance segmentation of deformable wires from a cluttered scene in RGBD imagery. This work uses the Detectron2 implementation of Mask R-CNN trained with the PointRend mask head on the UIUCWires dataset as the framework for wire instance segmentation on RGB imagery, a method demonstrated to perform well for the instance segmentation task in previous work. In this work, the instance bitmask is directly used to segment individual object point clouds, an important step toward wire shape representation for manipulation tasks.},
-    pdf = {ICRA2022RMDO.pdf},
+    pdf = {https://deformable-workshop.github.io/icra2022/spotlight/WDOICRA2022_08.pdf},
     preview = {wire_segmentation.png},
     video = {https://youtu.be/eqgZQckCDOY},
     selected={true}
@@ -78,20 +113,8 @@
     title = {{Insights from an Industrial Collaborative Assembly Project: Lessons in Research and Collaboration}},
     month = {5},
     abstract = {Significant progress in robotics reveals new opportunities to advance manufacturing. Next-generation industrial automation will require both integration of distinct robotic technologies and their application to challenging industrial environments. This paper presents lessons from a collaborative assembly project between three academic research groups and an industry partner. The goal of the project is to develop a flexible, safe, and productive manufacturing cell for sub-centimeter precision assembly. Solving this problem in a high-mix, low-volume production line motivates multiple research thrusts in robotics. This work identifies new directions in collaborative robotics for industrial applications and offers insight toward strengthening collaborations between institutions in academia and industry on the development of new technologies.},
-    pdf = {ICRA2022CRWotFpdf},
+    pdf = {https://drive.google.com/file/d/1tRxx4vOb0SXX8LnQ3WeduaBud7eStDYO/view},
     preview = {wotf.png},
     video = {https://drive.google.com/file/d/1Vce93zH5N1a0dci7OP_YU3OjusJUVI_n/view},
-    selected={true}
-}
-
-@inproceedings{ta2023sim,
-    author = {Ta*, Minh Quang and Dinkel*, Holly and Abdul-Rashid, Hameed and Dai, Yangfei and Myers, Jessica and Chen, Tan and Geng, Junyi, and Bretl, Timothy},
-    year = {2023},
-    booktitle={{IEEE/RSJ IROS Workshop on Robotics and AI in Future Factory (RAFF)}},
-    title = {{The Impact of Time Step Frequency on the Realism of Robotic Manipulation Simulation for Objects of Different Scales}},
-    month = {10},
-    abstract = {This work evaluates the impact of time step frequency and component scale on robotic manipulation simulation stability. Increasing the time step frequency for small-scale objects is shown to improve simulation stability. This simulation, demonstrating pre-assembly part picking for two object geometries, serves as a starting point for discussing how to improve Sim2Real transfer in robotic assembly processes.},
-    pdf = {IROS2023.pdf},
-    preview = {real2sim_comparison.png},
     selected={true}
 }
