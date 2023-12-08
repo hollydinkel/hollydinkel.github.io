@@ -2,13 +2,14 @@
 ---
 
 @inproceedings{santos2024aiaa,
-    author = {Santos, Jamie and Dinkel, Holly and Di, Julia and Borges, Paulo V.K. and Gouveia Moreira, Marina and Coltin, Brian and Smith, Trey},
+    author = {Santos, Jamie and Dinkel, Holly and Di, Julia and Borges, Paulo V.K. and Gouveia Moreira, Marina and Alexandrov, Oleg and Coltin, Brian and Smith, Trey},
     year = {2024},
     booktitle={{AIAA SciTech Forum}},
     title = {{Unsupervised Change Detection for Space Habitats Using 3D Point Clouds}},
     month = {1},
-    abstract = {Autonomous robotic systems are needed to help maintain spacecraft and space habitats on future long-duration deep-space missions, such as the Gateway space station, which will be uncrewed for extended periods. In this work, we propose an algorithm for scene change detection from raw point clouds to enable autonomous robotic caretaking, using the International Space Station (ISS) as an analog of future space habitats. Currently deployed on the ISS, the Astrobee assistive free-flyer robot uses change detection software to inspect, identify anomalies, and update maps. However, the existing ISS scene analysis software relies on manually-labeled images for detecting changes. In contrast, the algorithm presented in this work eliminates the need for highly manual data annotation by using only raw point clouds as inputs, and is not sensitive to the category of changed objects. From two input point clouds, our algorithm performs change detection using Gaussian Mixture Model (GMM) clustering. Through experiments conducted in a granite table mockup of the ISS at NASA Ames Research Center, we successfully demonstrate the detection of new objects, disappearing objects, and multiple scene changes. To promote further research and development, the source code and benchmarking data are publicly released.},
-    preview = {aiaa2024gt.png},
+    pdf = {https://arxiv.org/pdf/2312.02396.pdf},
+    abstract = {This work presents an algorithm for scene change detection from point clouds to enable autonomous robotic caretaking in future space habitats. Autonomous robotic systems will help maintain future deep-space habitats, such as the Gateway space station, which will be uncrewed for extended periods. Existing scene analysis software used on the International Space Station (ISS) relies on manually-labeled images for detecting changes. In contrast, the algorithm presented in this work uses raw, unlabeled point clouds as inputs. The algorithm first applies modified Expectation-Maximization Gaussian Mixture Model (GMM) clustering to two input point clouds. It then performs change detection by comparing the GMMs using the Earth Mover's Distance. The algorithm is validated quantitatively and qualitatively using a test dataset collected by an Astrobee robot in the NASA Ames Granite Lab comprising single frame depth images taken directly by Astrobee and full-scene reconstructed maps built with RGB-D and pose data from Astrobee. The runtimes of the approach are also analyzed in depth. The source code is publicly released to promote further development.},
+    preview = {changes.png},
     selected={true}
 }
 
