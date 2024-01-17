@@ -1,34 +1,131 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Abrams":
+  - firstname: ["Robert", "R."]
+    url: https://www.linkedin.com/in/robert-abrams-146a8823/
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Albee":
+  - firstname: ["Keenan", "K."]
+    url: https://www-robotics.jpl.nasa.gov/who-we-are/people/keenan-albee/
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Alexandrov":
+  - firstname: ["Oleg", "O."]
+    url: https://linkedin.com/in/olegalexandrov
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Amato":
+  - firstname: ["Nancy, "N."]
+    url: https://parasollab.web.illinois.edu/people/amato/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Abdul-Rashid":
+  - firstname: ["Hameed", "H."]
+    url: https://hammania689.github.io/
 
-"Przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"Borges":
+  - firstname: ["Paulo", "P.V.K.", "Paulo V.K."]
+    url: www.paulovinicius.com
 
-"Schrödinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"Bretl":
+  - firstname: ["Timothy", "T."]
+    url: http://bretl.csl.illinois.edu/
 
-"Lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"Chen":
+  - firstname: ["Tan", "T."]
+    url: https://chentan.github.io/
 
-"Planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"Cornelius":
+  - firstname: ["Jason", "J.", "J.K.", "Jason Kyle"]
+    url: https://www.linkedin.com/in/jason-k-cornelius
+
+"Coltin":
+  - firstname: ["Brian", "B."]
+    url: https://brian.coltin.org/
+
+"Dai":
+  - firstname: ["Yangfei", "Y."]
+    url: https://yangfei4.github.io/
+
+"Di":
+  - firstname: ["Julia", "J."]
+    url: https://web.stanford.edu/~juliadi/
+
+"Driggs-Campbell":
+  - firstname: ["Katherine", "K."]
+    url: https://krdc.web.illinois.edu/
+
+"Freemire":
+  - firstname: ["Ben", "B."]
+    url: https://www.linkedin.com/in/ben-freemire-10506512
+
+"Johnson":
+  - firstname: ["Rolland", "R."]
+    url: https://www.linkedin.com/in/rolland-johnson-99266767
+
+"Gao":
+  - firstname: ["Naixiang", "N.", "Gabe"]
+    url: https://www.linkedin.com/in/naixiang-gao-543348272/
+
+"Geng":
+  - firstname: ["Junyi", "J."]
+    url: https://ari-psu.github.io/
+
+"Huang":
+  - firstname: ["Zhe", "Z."]
+    url: https://tedhuang96.github.io/
+
+"Kurgan":
+  - firstname: ["Arzu", "A."]
+    url: https://www.linkedin.com/in/arzukurgan/
+
+"Liu":
+  - firstname: ["Sizhe", "S."]
+    url: https://www.linkedin.com/in/sizhe-liu/
+
+"Morales":
+  - firstname: ["Marco", "M."]
+    url: https://parasollab.web.illinois.edu/people/moralesa/
+
+"Moreira":
+  - firstname: ["Marina", "M."]
+    url: https://www.linkedin.com/in/marinagmoreira
+
+"Motes":
+  - firstname: ["James", "J."]
+    url: https://parasollab.web.illinois.edu/people/jmotes2/
+
+"Mun":
+  - firstname: ["Ye-ji", "Y.J."]
+    url: https://yejimun.github.io/
+
+"Myers":
+  - firstname: ["Jessica", "J."]
+    url: https://www.linkedin.com/in/jessica-myers-552252191    
+
+"Santos": 
+  - firstname: ["Jamie", "J."]
+    url: https://www.linkedin.com/in/jamiecsantos/
+
+"Smith": 
+  - firstname: ["Trey", "T."]
+    url: https://longhorizon.org/trey/
+
+"Ta": 
+  - firstname: ["Minh", "Minh Q.", "Minh Quang", "Quang Minh"]
+    url: https://www.linkedin.com/in/quang-minh-ta/
+
+"Tollestrup": 
+  - firstname: ["Alvin", "A."]
+    url: https://en.wikipedia.org/wiki/Alvin_V._Tollestrup
+
+"Xiang":
+  - firstname: ["Jingyi", "J."]
+    url: https://jingyi-xiang.github.io/
+
+"Yonehara":
+  - firstname: ["Katsuya", "K."]
+    url: https://www.linkedin.com/in/katsuya-yonehara-46b14965/
+
+"Zhao":
+  - firstname: ["Harry", "H."]
+    url: https://www.linkedin.com/in/zhao-harry/
+
+"Zwaska":
+  - firstname: ["Robert", "R."]
+    url: https://www.linkedin.com/in/bob-zwaska/
