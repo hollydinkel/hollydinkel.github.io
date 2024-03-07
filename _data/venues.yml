@@ -1,6 +1,15 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"IAF International Astronautical Congress":
+  url: https://www.iafastro.org/events/iac/
+  # color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"AIAA SciTech Forum":
+  url: https://www.aiaa.org/SciTech
+
+"IEEE/RSJ IROS":
+  url: https://ieee-iros.org/
+
+"IEEE ICRA":
+  url: https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra
+
+"RSS":
+  url: https://roboticsconference.org/
