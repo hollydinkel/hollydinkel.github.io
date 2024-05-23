@@ -1,6 +1,20 @@
 ---
 ---
 
+@inproceedings{dinkel2024knotdlo,
+    author = {Dinkel, Holly and Navaratna, Raghavendra and Xiang, Jingyi and Coltin, Brian and Smith, Trey and Bretl, Timothy},
+    year = {2024},
+    booktitle={{IEEE ICRA Workshop on 3D Visual Representations for Manipulation}},
+    title = {{KnotDLO: Toward Interpretable Knot Tying}},
+    month = {5},
+    abstract = {This work presents KnotDLO, a method for one-handed knot manipulation to transform a Deformable Linear Object (DLO) into knot states. Grasp and target waypoints for future DLO states are planned from the current DLO shape. Grasp poses are computed from indexing the tracked piecewise linear curve representing the DLO state based on the current curve shape and are piecewise continuous. Intermediate waypoints are computed from the geometry of the current DLO state and the desired next state. The perception and manipulation system is robust to occlusion, repeatable for varying rope initial configurations, interpretable for generating motion policies, and requires no human demonstrations or training. The system decouples visual reasoning from control. In 16 trials of knot tying, KnotDLO achieves a 50% success rate in tying an overhand knot from previously unseen configurations.},
+    pdf = {https://openreview.net/pdf?id=vsaEOFOUyY},
+    poster = {ICRA20243DVRM_poster},
+    video = {https://youtu.be/mg30uCUtpOk},
+    preview = {knotdlo.png},
+    selected={true}
+}
+
 @inproceedings{santos2024aiaa,
     author = {Santos, Jamie and Dinkel, Holly and Di, Julia and Borges, Paulo V.K. and Gouveia Moreira, Marina and Alexandrov, Oleg and Coltin, Brian and Smith, Trey},
     year = {2024},
@@ -40,6 +54,7 @@
   doi={10.1109/LRA.2023.3303710},
   abstract = {The TrackDLO algorithm estimates the shape of a Deformable Linear Object (DLO) under occlusion from a sequence of RGB-D images. TrackDLO is vision-only and runs in real-time. It requires no external state information from physics modeling, simulation, visual markers, or contact as input. The algorithm improves on previous approaches by addressing three common scenarios which cause tracking failure: tip occlusion, mid-section occlusion, and self-occlusion. This is achieved through the application of Motion Coherence Theory to impute the spatial velocity of occluded nodes, the use of the topological geodesic distance to track self-occluding DLOs, and the introduction of a non-Gaussian kernel that only penalizes lower-order spatial displacement derivatives to reflect DLO physics. Improved real-time DLO tracking under mid-section occlusion, tip occlusion, and self-occlusion is demonstrated experimentally. The source code and demonstration data are publicly released.},
   pdf = {https://ieeexplore.ieee.org/document/10214157},
+  poster = {ICRA2024RMDO_poster.pdf},
   code = {https://github.com/RMDLO/trackdlo},
   preview = {trackdlo_preview.png},
   video = {https://youtu.be/MxqNJsen5eg},

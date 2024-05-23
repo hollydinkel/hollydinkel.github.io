@@ -96,7 +96,11 @@
 
 "Myers":
   - firstname: ["Jessica", "J."]
-    url: https://www.linkedin.com/in/jessica-myers-552252191    
+    url: https://www.linkedin.com/in/jessica-myers-552252191
+
+"Navaratna":
+  - firstname: ["Raghavendra", "R."]
+    url: https://www.rsnavaratna.com/
 
 "Santos": 
   - firstname: ["Jamie", "J."]
