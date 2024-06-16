@@ -24,7 +24,7 @@
     pdf = {https://arxiv.org/pdf/2312.02396.pdf},
     video = {https://www.youtube.com/watch?v=7WHp0dQYG4Y},
     abstract = {This work presents an algorithm for scene change detection from point clouds to enable autonomous robotic caretaking in future space habitats. Autonomous robotic systems will help maintain future deep-space habitats, such as the Gateway space station, which will be uncrewed for extended periods. Existing scene analysis software used on the International Space Station (ISS) relies on manually-labeled images for detecting changes. In contrast, the algorithm presented in this work uses raw, unlabeled point clouds as inputs. The algorithm first applies modified Expectation-Maximization Gaussian Mixture Model (GMM) clustering to two input point clouds. It then performs change detection by comparing the GMMs using the Earth Mover's Distance. The algorithm is validated quantitatively and qualitatively using a test dataset collected by an Astrobee robot in the NASA Ames Granite Lab comprising single frame depth images taken directly by Astrobee and full-scene reconstructed maps built with RGB-D and pose data from Astrobee. The runtimes of the approach are also analyzed in depth. The source code is publicly released to promote further development.},
-    preview = {changes.png},
+    preview = {astrobee-granite.gif},
     selected={true}
 }
 
@@ -38,8 +38,7 @@
     pdf = {https://arxiv.org/pdf/2310.08233.pdf},
     poster = {IROS2023_poster.pdf},
     video = {https://www.youtube.com/watch?v=JOXrBpMmI0A},
-    code = {https://github.com/nasa/isaac/tree/master/anomaly/gmm-change-detection},
-    preview = {real2sim_comparison.png},
+    preview = {real2sim_comparison.gif},
     selected={true}
 }
 
@@ -57,7 +56,7 @@
   pdf = {https://ieeexplore.ieee.org/document/10214157},
   poster = {ICRA2024RMDO_poster.pdf},
   code = {https://github.com/RMDLO/trackdlo},
-  preview = {trackdlo_preview.png},
+  preview = {trackdlo.gif},
   video = {https://youtu.be/MxqNJsen5eg},
   selected={true}
 }
@@ -84,7 +83,7 @@
     title = {{Multi-Agent 3D Map Reconstruction and Change Detection in Microgravity with Free-Flying Robots}},
     month = {3},
     abstract = {Assistive free-flyer robots autonomously caring for future crewed outposts---such as NASA’s Astrobee robots on the International Space Station (ISS)---must be able to detect day-to-day interior changes to track inventory, detect and diagnose faults, and monitor the outpost status. This work presents a framework for multi-agent cooperative mapping and change detection to enable robotic maintenance of space outposts. One agent is used to reconstruct a 3D model of the environment from sequences of images and corresponding depth information. Another agent is used to periodically scan the environment for inconsistencies against the 3D model. Change detection is validated \textit{a posteriori} using real image and pose data collected by Astrobee robots in a ground testbed environment and from microgravity aboard the ISS. This work outlines the objectives, requirements, and algorithmic modules for the multi-agent reconstruction system, including recommendations for its use by assistive free-flyers aboard future microgravity outposts.},
-    preview = {iac2023.png},
+    preview = {astrobee-iss.gif},
     pdf = {https://arxiv.org/pdf/2311.02558.pdf},
     video={https://www.youtube.com/watch?v=VfjV-zwFEtU},
     code = {https://github.com/hollydinkel/astrobeecd},
