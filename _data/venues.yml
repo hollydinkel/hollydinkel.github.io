@@ -1,15 +1,19 @@
 "IAF International Astronautical Congress":
   url: https://www.iafastro.org/events/iac/
-  # color: "#00369f"
+  color: "#192F7C"
 
 "AIAA SciTech Forum":
   url: https://www.aiaa.org/SciTech
+  color: "#173B6B"
 
 "IEEE/RSJ IROS":
   url: https://ieee-iros.org/
+  color: "#014F9C"
 
 "IEEE ICRA":
   url: https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra
+  color: "#014F9C"
 
 "RSS":
   url: https://roboticsconference.org/
+  color: "#D03D09"
