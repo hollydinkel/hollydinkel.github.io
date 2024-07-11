@@ -1,5 +1,22 @@
 ---
 ---
+@article{dinkel2024astrobeecd,
+    author = {Dinkel, Holly and Di, Julia and Santos, Jamie and Albee, Keenan and Borges, Paulo V.K. and Gouveia Moreira, Marina and Soussan, Ryan and Alexandrov, Oleg and Coltin, Brian and Smith, Trey},
+    booktitle={{Acta Astronautica}},
+    title = {{AstrobeeCD: Change Detection in Microgravity with Free-Flying Robots}},
+    journal={IEEE Robotics and Automation Letters},
+    volume = {223},
+    pages = {98-107},
+    year = {2024},
+    issn = {0094-5765},
+    doi = {https://doi.org/10.1016/j.actaastro.2024.06.037},
+    abstract = {This work presents AstrobeeCD, a system for 3D scene change detection toward near-real-time environmental awareness of space outposts using the Astrobee free-flying robot in microgravity. Assistive free-flyer robots autonomously caring for future crewed space habitats must be able to detect day-to-day interior changes to track inventory, detect and diagnose faults, and monitor the outpost status. A set of image and depth data from one time step is used to reconstruct a 3D model of the environment. The 3D model is used as the basis for comparison for free-flyer environment surveys at future time steps, where an image-based change detection algorithm identifies inconsistencies against the 3D model. Change detection is demonstrated using real image and pose data collected by an Astrobee robot in a test environment on Earth at NASA Ames Research Center and from microgravity aboard the International Space Station. Change detection computation time and performance are quantitatively evaluated on the test data captured on Earth, and it identifies scene changes more quickly than a point cloud clustering-based algorithm applied to data from the same surveys.},
+    preview = {astrobee-iss.gif},
+    pdf = {https://www.sciencedirect.com/science/article/pii/S0094576524003539},
+    video={https://www.youtube.com/watch?v=VfjV-zwFEtU},
+    code = {https://github.com/hollydinkel/astrobeecd},
+    selected={true}
+}
 
 @inproceedings{dinkel2024knotdlo,
     author = {Dinkel, Holly and Navaratna, Raghavendra and Xiang, Jingyi and Coltin, Brian and Smith, Trey and Bretl, Timothy},
@@ -83,7 +100,7 @@
     title = {{Multi-Agent 3D Map Reconstruction and Change Detection in Microgravity with Free-Flying Robots}},
     month = {3},
     abstract = {Assistive free-flyer robots autonomously caring for future crewed outposts---such as NASA’s Astrobee robots on the International Space Station (ISS)---must be able to detect day-to-day interior changes to track inventory, detect and diagnose faults, and monitor the outpost status. This work presents a framework for multi-agent cooperative mapping and change detection to enable robotic maintenance of space outposts. One agent is used to reconstruct a 3D model of the environment from sequences of images and corresponding depth information. Another agent is used to periodically scan the environment for inconsistencies against the 3D model. Change detection is validated \textit{a posteriori} using real image and pose data collected by Astrobee robots in a ground testbed environment and from microgravity aboard the ISS. This work outlines the objectives, requirements, and algorithmic modules for the multi-agent reconstruction system, including recommendations for its use by assistive free-flyers aboard future microgravity outposts.},
-    preview = {astrobee-iss.gif},
+    preview = {iac2023.png},
     pdf = {https://arxiv.org/pdf/2311.02558.pdf},
     video={https://www.youtube.com/watch?v=VfjV-zwFEtU},
     code = {https://github.com/hollydinkel/astrobeecd},
