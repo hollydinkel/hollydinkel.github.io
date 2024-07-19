@@ -54,10 +54,6 @@
   - firstname: ["Ben", "B."]
     url: https://www.linkedin.com/in/ben-freemire-10506512
 
-"Johnson":
-  - firstname: ["Rolland", "R."]
-    url: https://www.linkedin.com/in/rolland-johnson-99266767
-
 "Gao":
   - firstname: ["Naixiang", "N.", "Gabe"]
     url: https://www.linkedin.com/in/naixiang-gao-543348272/
@@ -70,6 +66,14 @@
   - firstname: ["Zhe", "Z."]
     url: https://tedhuang96.github.io/
 
+"Johnson":
+  - firstname: ["Rolland", "R."]
+    url: https://www.linkedin.com/in/rolland-johnson-99266767
+
+"Kazakevich":
+  - firstname: ["Grigory", "G."]
+    url: https://inspirehep.net/authors/1046265
+
 "Kurgan":
   - firstname: ["Arzu", "A."]
     url: https://www.linkedin.com/in/arzukurgan/
@@ -77,6 +81,10 @@
 "Liu":
   - firstname: ["Sizhe", "S."]
     url: https://www.linkedin.com/in/sizhe-liu/
+
+"Lin":
+  - firstname: ["Wei-Che", "W.C."]
+    url: https://www.linkedin.com/in/wei-che-lin-778aa6156/
 
 "Morales":
   - firstname: ["Marco", "M."]
@@ -91,7 +99,7 @@
     url: https://parasollab.web.illinois.edu/people/jmotes2/
 
 "Mun":
-  - firstname: ["Ye-ji", "Y.J."]
+  - firstname: ["Ye-Ji", "Y.J."]
     url: https://yejimun.github.io/
 
 "Myers":

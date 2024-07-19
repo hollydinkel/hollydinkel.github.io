@@ -1,13 +1,14 @@
 ---
 ---
 @article{dinkel2024astrobeecd,
-    author = {Dinkel, Holly and Di, Julia and Santos, Jamie and Albee, Keenan and Borges, Paulo V.K. and Gouveia Moreira, Marina and Soussan, Ryan and Alexandrov, Oleg and Coltin, Brian and Smith, Trey},
+    author = {Dinkel, Holly and Di, Julia and Santos, Jamie and Albee, Keenan and Borges, Paulo V.K. and Moreira, Marina and Soussan, Ryan and Alexandrov, Oleg and Coltin, Brian and Smith, Trey},
     booktitle={{Acta Astronautica}},
     title = {{AstrobeeCD: Change Detection in Microgravity with Free-Flying Robots}},
     journal={{Acta Astronautica}},
     volume = {223},
     pages = {98-107},
     year = {2024},
+    month = {October},
     issn = {0094-5765},
     doi = {https://doi.org/10.1016/j.actaastro.2024.06.037},
     abstract = {This work presents AstrobeeCD, a system for 3D scene change detection toward near-real-time environmental awareness of space outposts using the Astrobee free-flying robot in microgravity. Assistive free-flyer robots autonomously caring for future crewed space habitats must be able to detect day-to-day interior changes to track inventory, detect and diagnose faults, and monitor the outpost status. A set of image and depth data from one time step is used to reconstruct a 3D model of the environment. The 3D model is used as the basis for comparison for free-flyer environment surveys at future time steps, where an image-based change detection algorithm identifies inconsistencies against the 3D model. Change detection is demonstrated using real image and pose data collected by an Astrobee robot in a test environment on Earth at NASA Ames Research Center and from microgravity aboard the International Space Station. Change detection computation time and performance are quantitatively evaluated on the test data captured on Earth, and it identifies scene changes more quickly than a point cloud clustering-based algorithm applied to data from the same surveys.},
@@ -23,7 +24,7 @@
     year = {2024},
     booktitle={{IEEE ICRA Workshop on 3D Visual Representations for Manipulation}},
     title = {{KnotDLO: Toward Interpretable Knot Tying}},
-    month = {5},
+    month = {May},
     abstract = {This work presents KnotDLO, a method for one-handed knot manipulation to transform a Deformable Linear Object (DLO) into knot states. Grasp and target waypoints for future DLO states are planned from the current DLO shape. Grasp poses are computed from indexing the tracked piecewise linear curve representing the DLO state based on the current curve shape and are piecewise continuous. Intermediate waypoints are computed from the geometry of the current DLO state and the desired next state. The perception and manipulation system is robust to occlusion, repeatable for varying rope initial configurations, interpretable for generating motion policies, and requires no human demonstrations or training. The system decouples visual reasoning from control. In 16 trials of knot tying, KnotDLO achieves a 50% success rate in tying an overhand knot from previously unseen configurations.},
     pdf = {https://openreview.net/pdf?id=vsaEOFOUyY},
     poster = {ICRA20243DVRM_poster.pdf},
@@ -32,12 +33,28 @@
     selected={true}
 }
 
+@article{xiang2024trackdlo,
+  title = {{TrackDLO: Tracking Deformable Linear Objects Under Occlusion with Motion Coherence}},
+  author = {Xiang, Jingyi and Dinkel, Holly and Zhao, Harry and Gao, Naixiang and Coltin, Brian and Smith, Trey and Bretl, Timothy},
+  journal={{IEEE ICRA Workshop on Representing and Manipulating Deformable Objects}},
+  year = {2024},
+  month={May},
+  abstract = {The TrackDLO algorithm estimates the shape of a Deformable Linear Object (DLO) under occlusion from a sequence of RGB-D images. TrackDLO is vision-only and runs in real-time. It requires no external state information from physics modeling, simulation, visual markers, or contact as input. The algorithm improves on previous approaches by addressing three common scenarios which cause tracking failure: tip occlusion, mid-section occlusion, and self-occlusion. This is achieved through the application of Motion Coherence Theory to impute the spatial velocity of occluded nodes, the use of the topological geodesic distance to track self-occluding DLOs, and the introduction of a non-Gaussian kernel that only penalizes lower-order spatial displacement derivatives to reflect DLO physics. Improved real-time DLO tracking under mid-section occlusion, tip occlusion, and self-occlusion is demonstrated experimentally. The source code and demonstration data are publicly released.},
+  pdf = {https://deformable-workshop.github.io/icra2024/spotlight/02_07_wdo_xiang_trackdlo.pdf},
+  poster = {ICRA2024RMDO_poster.pdf},
+  code = {https://github.com/RMDLO/trackdlo},
+  preview = {trackdlo.gif},
+  video = {https://www.youtube.com/watch?v=OOgPZOQYRc4},
+  selected={true},
+  award={Best Abstract Finalist 🏆}
+}
+
 @inproceedings{santos2024aiaa,
-    author = {Santos, Jamie and Dinkel, Holly and Di, Julia and Borges, Paulo V.K. and Gouveia Moreira, Marina and Alexandrov, Oleg and Coltin, Brian and Smith, Trey},
+    author = {Santos, Jamie and Dinkel, Holly and Di, Julia and Borges, Paulo V.K. and Moreira, Marina and Alexandrov, Oleg and Coltin, Brian and Smith, Trey},
     year = {2024},
     booktitle={{AIAA SciTech Forum}},
     title = {{Unsupervised Change Detection for Space Habitats Using 3D Point Clouds}},
-    month = {1},
+    month = {January},
     pdf = {https://arxiv.org/pdf/2312.02396.pdf},
     video = {https://www.youtube.com/watch?v=7WHp0dQYG4Y},
     abstract = {This work presents an algorithm for scene change detection from point clouds to enable autonomous robotic caretaking in future space habitats. Autonomous robotic systems will help maintain future deep-space habitats, such as the Gateway space station, which will be uncrewed for extended periods. Existing scene analysis software used on the International Space Station (ISS) relies on manually-labeled images for detecting changes. In contrast, the algorithm presented in this work uses raw, unlabeled point clouds as inputs. The algorithm first applies modified Expectation-Maximization Gaussian Mixture Model (GMM) clustering to two input point clouds. It then performs change detection by comparing the GMMs using the Earth Mover's Distance. The algorithm is validated quantitatively and qualitatively using a test dataset collected by an Astrobee robot in the NASA Ames Granite Lab comprising single frame depth images taken directly by Astrobee and full-scene reconstructed maps built with RGB-D and pose data from Astrobee. The runtimes of the approach are also analyzed in depth. The source code is publicly released to promote further development.},
@@ -50,13 +67,14 @@
     year = {2023},
     booktitle={{IEEE/RSJ IROS Workshop on Robotics and AI in Future Factory (RAFF)}},
     title = {{The Impact of Time Step Frequency on the Realism of Robotic Manipulation Simulation for Objects of Different Scales}},
-    month = {10},
+    month = {October},
     abstract = {This work evaluates the impact of time step frequency and component scale on robotic manipulation simulation accuracy. Increasing the time step frequency for small-scale objects is shown to improve simulation accuracy. This simulation, demonstrating pre-assembly part picking for two object geometries, serves as a starting point for discussing how to improve Sim2Real transfer in robotic assembly processes.},
     pdf = {https://arxiv.org/pdf/2310.08233.pdf},
     poster = {IROS2023_poster.pdf},
     video = {https://www.youtube.com/watch?v=JOXrBpMmI0A},
     preview = {real2sim_comparison.gif},
-    selected={true}
+    selected={true},
+    award={Best Poster Finalist 🏆}
 }
 
 @article{xiang2023trackdlo,
@@ -64,7 +82,7 @@
   author = {Xiang, Jingyi and Dinkel, Holly and Zhao, Harry and Gao, Naixiang and Coltin, Brian and Smith, Trey and Bretl, Timothy},
   journal={IEEE Robotics and Automation Letters},
   year = {2023},
-  month={8},
+  month={August},
   volume={8},
   number={10},
   pages={6179-6186},
@@ -94,11 +112,11 @@
 }
 
 @inproceedings{dinkel2023iac,
-    author = {Dinkel*, Holly and Di*, Julia and Santos, Jamie and Albee, Keenan and Borges, Paulo V.K. and Gouveia Moreira, Marina and Alexandrov, Oleg and Coltin, Brian and Smith, Trey},
+    author = {Dinkel*, Holly and Di*, Julia and Santos, Jamie and Albee, Keenan and Borges, Paulo V.K. and Moreira, Marina and Alexandrov, Oleg and Coltin, Brian and Smith, Trey},
     year = {2023},
     booktitle={{IAF International Astronautical Congress}},
     title = {{Multi-Agent 3D Map Reconstruction and Change Detection in Microgravity with Free-Flying Robots}},
-    month = {3},
+    month = {October},
     abstract = {Assistive free-flyer robots autonomously caring for future crewed outposts---such as NASA’s Astrobee robots on the International Space Station (ISS)---must be able to detect day-to-day interior changes to track inventory, detect and diagnose faults, and monitor the outpost status. This work presents a framework for multi-agent cooperative mapping and change detection to enable robotic maintenance of space outposts. One agent is used to reconstruct a 3D model of the environment from sequences of images and corresponding depth information. Another agent is used to periodically scan the environment for inconsistencies against the 3D model. Change detection is validated \textit{a posteriori} using real image and pose data collected by Astrobee robots in a ground testbed environment and from microgravity aboard the ISS. This work outlines the objectives, requirements, and algorithmic modules for the multi-agent reconstruction system, including recommendations for its use by assistive free-flyers aboard future microgravity outposts.},
     preview = {iac2023.png},
     pdf = {https://arxiv.org/pdf/2311.02558.pdf},
@@ -112,7 +130,7 @@
     year = {2022},
     booktitle={{IAF International Astronautical Congress}},
     title = {{Vela: A Data-Driven Proposal for Joint Collaboration in Space Exploration}},
-    month = {9},
+    month = {October},
     abstract = {The UN Office of Outer Space Affairs identifies synergy of space development activities and international cooperation through data and infrastructure sharing in their Sustainable Development Goal 17 (SDG17). Current multilateral space exploration paradigms, however, are divided between the Artemis and the Roscosmos-CNSA programs to return to the moon and establish permanent human settlements. As space agencies work to expand human presence in space, economic resource consolidation in pursuit of technologically ambitious space expeditions is the most sensible path to accomplish SDG17. This paper compiles a budget dataset for the top five federally-funded space agencies: CNSA, ESA, JAXA, NASA, and Roscosmos. Using time-series econometric anslysis methods in STATA, this work analyzes each agency's economic contributions toward space exploration. The dataset results are used to propose a multinational space mission, Vela, for the development of an orbiting space station around Mars in the late 2030s. Distribution of economic resources and technological capabilities by the respective space programs are proposed to ensure programmatic redundancy and increase the odds of success on the given timeline.},
     pdf = {IAC2022.pdf},
     supp = {IAC2022_presentation.pdf},
@@ -125,13 +143,14 @@
     year = {2021},
     booktitle={{IAF Global Space Exploration Conference (GLEX)}},
     title = {{Development of a Private Space Sector in the U.S. and Russia}},
-    month = {6},
+    month = {June},
     abstract = {This work analyzes progress and challenges in the development of commercial space economies in the United States and Russia. Space development progress is characterized through examination of three production indicators for the space economies in each country and econometric analysis of the financial data for three new American private space companies. We also provide case studies of major challenges faced by three new private space companies and conjecture about the future of the private space industry through analysis of space education projects in each country. As leaders of space technological development and exploration, the U.S. and Russia are major stakeholders in the current and future global space economy. We find access to capital is a primary barrier to entrepreneurship. The results will help future founders more effectively navigate the complex financial, regulatory, and technological landscape of the space industry.},
     pdf = {GLEX2021.pdf},
     preview = {LaunchPlot.PNG},
     video = {https://youtu.be/xt2uH0qKv9s},
     supp = {https://www.youtube.com/watch?v=cPIoYJtPwak},
-    selected={true}
+    selected={true},
+    award={Best Technical Presentation Finalist 🏆}
 }
 
 @inproceedings{dinkel2022RMDOO,
@@ -139,7 +158,7 @@
     year = {2022},
     booktitle={{IEEE ICRA Workshop on Representing and Manipulating Deformable Objects}},
     title = {{Wire Point Cloud Instance Segmentation from RGBD Imagery with Mask R-CNN}},
-    month = {5},
+    month = {May},
     abstract = {Perception of the shapes of deforming objects like wires enables their monitoring and manipulation by autonomous robots. This paper presents detection, classification, and instance segmentation of deformable wires from a cluttered scene in RGBD imagery. This work uses the Detectron2 implementation of Mask R-CNN trained with the PointRend mask head on the UIUCWires dataset as the framework for wire instance segmentation on RGB imagery, a method demonstrated to perform well for the instance segmentation task in previous work. In this work, the instance bitmask is directly used to segment individual object point clouds, an important step toward wire shape representation for manipulation tasks.},
     pdf = {https://deformable-workshop.github.io/icra2022/spotlight/WDOICRA2022_08.pdf},
     preview = {wire_segmentation.png},
@@ -148,11 +167,11 @@
 }
 
 @inproceedings{chen2022insights,
-    author = {Chen, Tan and Huang, Zhe and Motes, James and Geng, Junyi and Ta, Quang Minh and Dinkel, Holly and Abdul-Rashid, Hameed and Myers, Jessica and Mun, Ye-Ji and Lin, Wei-Che and Huang, Yuan-Yung and Liu, Sizhe and Morales, Marco and Amato, Nancy and Driggs-Campbell, Katherinte and Bretl, Timothy},
+    author = {Chen, Tan and Huang, Zhe and Motes, James and Geng, Junyi and Ta, Quang Minh and Dinkel, Holly and Abdul-Rashid, Hameed and Myers, Jessica and Mun, Ye-Ji and Lin, Wei-Che and Huang, Yuan-Yung and Liu, Sizhe and Morales, Marco and Amato, Nancy and Driggs-Campbell, Katherine and Bretl, Timothy},
     year = {2022},
     booktitle={{IEEE ICRA Workshop on Collaborative Robots and Work of the Future}},
     title = {{Insights from an Industrial Collaborative Assembly Project: Lessons in Research and Collaboration}},
-    month = {5},
+    month = {May},
     abstract = {Significant progress in robotics reveals new opportunities to advance manufacturing. Next-generation industrial automation will require both integration of distinct robotic technologies and their application to challenging industrial environments. This paper presents lessons from a collaborative assembly project between three academic research groups and an industry partner. The goal of the project is to develop a flexible, safe, and productive manufacturing cell for sub-centimeter precision assembly. Solving this problem in a high-mix, low-volume production line motivates multiple research thrusts in robotics. This work identifies new directions in collaborative robotics for industrial applications and offers insight toward strengthening collaborations between institutions in academia and industry on the development of new technologies.},
     pdf = {https://arxiv.org/pdf/2205.14340.pdf},
     preview = {wotf.png},
@@ -165,7 +184,7 @@
     year = {2016},
     booktitle={{International Particle Accelerator Conference}},
     title = {{Gas Filled RF Resonator Hadron Beam Monitor for Intense Neutrino Beam Experiments}},
-    month = {6},
+    month = {June},
     abstract = {MW-class beam facilities are being considered all over the world to produce an intense neutrino beam for fundamental particle physics experiments. A radiation-robust beam monitor system is required to diagnose the primary and secondary beam qualities in high-radiation environments. We have proposed a novel gas-filled RF-resonator hadron beam monitor in which charged particles passing through the resonator produce ionized plasma that changes the permittivity of the gas. The sensitivity of the monitor has been evaluated in numerical simulation. A signal manipulation algorithm has been designed. A prototype system will be constructed and tested by using a proton beam at the MuCool Test Area at Fermilab.},
     pdf = {https://www.osti.gov/servlets/purl/1280866},
     preview = {beam_monitor.png},
