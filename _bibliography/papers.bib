@@ -55,9 +55,11 @@
     booktitle={{AIAA SciTech Forum}},
     title = {{Unsupervised Change Detection for Space Habitats Using 3D Point Clouds}},
     month = {January},
-    pdf = {https://arxiv.org/pdf/2312.02396.pdf},
+    pdf = {https://arc.aiaa.org/doi/10.2514/6.2024-1960},
+    doi = {https://doi.org/10.2514/6.2024-1960},
     video = {https://www.youtube.com/watch?v=7WHp0dQYG4Y},
     abstract = {This work presents an algorithm for scene change detection from point clouds to enable autonomous robotic caretaking in future space habitats. Autonomous robotic systems will help maintain future deep-space habitats, such as the Gateway space station, which will be uncrewed for extended periods. Existing scene analysis software used on the International Space Station (ISS) relies on manually-labeled images for detecting changes. In contrast, the algorithm presented in this work uses raw, unlabeled point clouds as inputs. The algorithm first applies modified Expectation-Maximization Gaussian Mixture Model (GMM) clustering to two input point clouds. It then performs change detection by comparing the GMMs using the Earth Mover's Distance. The algorithm is validated quantitatively and qualitatively using a test dataset collected by an Astrobee robot in the NASA Ames Granite Lab comprising single frame depth images taken directly by Astrobee and full-scene reconstructed maps built with RGB-D and pose data from Astrobee. The runtimes of the approach are also analyzed in depth. The source code is publicly released to promote further development.},
+    code = {https://github.com/nasa/isaac/tree/master/anomaly/gmm-change-detection},
     preview = {astrobee-granite.gif},
     selected={true}
 }
@@ -86,7 +88,7 @@
   volume={8},
   number={10},
   pages={6179-6186},
-  doi={10.1109/LRA.2023.3303710},
+  doi={https://doi.org/10.1109/LRA.2023.3303710},
   abstract = {The TrackDLO algorithm estimates the shape of a Deformable Linear Object (DLO) under occlusion from a sequence of RGB-D images. TrackDLO is vision-only and runs in real-time. It requires no external state information from physics modeling, simulation, visual markers, or contact as input. The algorithm improves on previous approaches by addressing three common scenarios which cause tracking failure: tip occlusion, mid-section occlusion, and self-occlusion. This is achieved through the application of Motion Coherence Theory to impute the spatial velocity of occluded nodes, the use of the topological geodesic distance to track self-occluding DLOs, and the introduction of a non-Gaussian kernel that only penalizes lower-order spatial displacement derivatives to reflect DLO physics. Improved real-time DLO tracking under mid-section occlusion, tip occlusion, and self-occlusion is demonstrated experimentally. The source code and demonstration data are publicly released.},
   pdf = {https://ieeexplore.ieee.org/document/10214157},
   poster = {ICRA2024RMDO_poster.pdf},
@@ -132,13 +134,13 @@
     title = {{Vela: A Data-Driven Proposal for Joint Collaboration in Space Exploration}},
     month = {October},
     abstract = {The UN Office of Outer Space Affairs identifies synergy of space development activities and international cooperation through data and infrastructure sharing in their Sustainable Development Goal 17 (SDG17). Current multilateral space exploration paradigms, however, are divided between the Artemis and the Roscosmos-CNSA programs to return to the moon and establish permanent human settlements. As space agencies work to expand human presence in space, economic resource consolidation in pursuit of technologically ambitious space expeditions is the most sensible path to accomplish SDG17. This paper compiles a budget dataset for the top five federally-funded space agencies: CNSA, ESA, JAXA, NASA, and Roscosmos. Using time-series econometric anslysis methods in STATA, this work analyzes each agency's economic contributions toward space exploration. The dataset results are used to propose a multinational space mission, Vela, for the development of an orbiting space station around Mars in the late 2030s. Distribution of economic resources and technological capabilities by the respective space programs are proposed to ensure programmatic redundancy and increase the odds of success on the given timeline.},
-    pdf = {IAC2022.pdf},
+    pdf = {https://arxiv.org/pdf/2408.04730},
     supp = {IAC2022_presentation.pdf},
     preview = {lvs.png},
     selected={true}
 }
 
-@inproceedings{dinkel2022glex,
+@inproceedings{cornelius2021glex,
     author = {Cornelius, Jason and Dinkel, Holly and Kurgan, Arzu},
     year = {2021},
     booktitle={{IAF Global Space Exploration Conference (GLEX)}},
