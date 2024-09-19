@@ -26,6 +26,10 @@
   - firstname: ["Timothy", "T."]
     url: http://bretl.csl.illinois.edu/
 
+"Cambone":
+  - firstname: ["Giulia", "G."]
+    url: https://www.linkedin.com/in/giulia-cambone-075723210
+
 "Chen":
   - firstname: ["Tan", "T."]
     url: https://chentan.github.io/
@@ -49,6 +53,10 @@
 "Driggs-Campbell":
   - firstname: ["Katherine", "K."]
     url: https://krdc.web.illinois.edu/
+
+"Ferrone":
+  - firstname: ["Luca", "L."]
+    url: https://uk.linkedin.com/in/luca-ferrone
 
 "Freemire":
   - firstname: ["Ben", "B."]
@@ -74,6 +82,14 @@
   - firstname: ["Grigory", "G."]
     url: https://inspirehep.net/authors/1046265
 
+"Kim":
+  - firstname: ["KangSan", "K."]
+    url: https://sg.linkedin.com/in/antoniofowlstark
+
+"Kito":
+  - firstname: ["Shinsuke", "S."]
+    url: https://www.linkedin.com/in/shinsukekito/
+
 "Kurgan":
   - firstname: ["Arzu", "A."]
     url: https://www.linkedin.com/in/arzukurgan/
@@ -85,6 +101,10 @@
 "Lin":
   - firstname: ["Wei-Che", "W.C."]
     url: https://www.linkedin.com/in/wei-che-lin-778aa6156/
+
+"Martkamjan":
+  - firstname: ["Chawalwat", "C."]
+    url: https://www.linkedin.com/in/chawalwat-martkamjan/
 
 "Morales":
   - firstname: ["Marco", "M."]
