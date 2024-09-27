@@ -6,7 +6,7 @@ subtitle: Ph.D. Candidate in Aerospace Engineering
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.gif
   image_circular: false # crops the image to make it circular
   address: >
     <p>Urbana, Illinois. 61801</p>
