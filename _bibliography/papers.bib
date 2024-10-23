@@ -1,3 +1,16 @@
+@inproceedings{abdulrashid2024pose,
+    author = {Abdul-Rashid, Hameed and Dai, Yangfei and Dinkel, Holly and Ta, Minh Quang and Chen, Tan and Geng, Junyi and Bretl, Timothy},
+    booktitle={{CoRL Workshop on Learning Robotic Assembly of Industrial and Everyday Objects}},
+    title = {{Pose Estimation of Sub-Centimeter Industrial Parts for Automated Assembly}},
+    year = {2024},
+    month = {November},
+    abstract = {This work presents a learned, vision-based system for estimating the pose of three sub-centimeter parts for automating a high-mix low-volume assembly line. In this system, a 3D model of each part is input to a BlenderProc2 physics-based rendering engine to produce a photorealistic synthetic dataset of part images. The synthetic images are used to train a Mask R-CNN model to segment part instances in a scene, with instance mask labels used during training obtained automatically without manual labeling. Instance segmentation of individual parts enables selection for assembly when multiple parts are present. Finally, a PVNet model is trained on individual parts instance image crops to estimate planar part pose within 0.6 $\mathrm{mm}$, 0.59 $\mathrm{mm}$, 63.81 $\mathrm{mm}$ XYZ positional error and 4.08$^{\circ}$ angular error. An ablation study injecting noise into the keypoint detection stage of the PVNet-based model is performed to evaluate robustness of pose estimation to sensor noise. This system offers a cost-effective approach to learning sub-centimeter pose estimation.},
+    preview = {CoRL2024.pdf},
+    pdf = {CoRL2024.pdf},
+    code = {https://github.com/yangfei4/clean-pvnet},
+    selected={true}
+}
+
 @inproceedings{cambone2024business,
     author = {Cambone, Giulia and Dinkel, Holly and Ferrone, Luca and Kim, KangSan and Kito, Shinsuke and Martkamjan, Chawalwat},
     booktitle={{IAF International Astronautical Congress}},
