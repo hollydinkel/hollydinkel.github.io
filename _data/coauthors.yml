@@ -34,6 +34,10 @@
   - firstname: ["Tan", "T."]
     url: https://chentan.github.io/
 
+"Choi":
+  - firstname: ["Su Yeon", "S.Y."]
+    url: https://www.linkedin.com/in/su-yeon-choi-9529b51b5/
+
 "Cornelius":
   - firstname: ["Jason", "J.", "J.K.", "Jason Kyle"]
     url: https://www.linkedin.com/in/jason-k-cornelius
@@ -69,6 +73,10 @@
 "Geng":
   - firstname: ["Junyi", "J."]
     url: https://ari-psu.github.io/
+
+"Hanley":
+  - firstname: ["David", "D."]
+    url: https://www.davidjhanley.com/
 
 "Huang":
   - firstname: ["Zhe", "Z."]
