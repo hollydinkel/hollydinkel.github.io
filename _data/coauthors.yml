@@ -22,6 +22,14 @@
   - firstname: ["Paulo", "P.V.K.", "Paulo V.K."]
     url: www.paulovinicius.com
 
+"Björkman":
+  - firstname: ["Mårten", "M."]
+    url: https://www.csc.kth.se/~celle/
+
+"Büsching":
+  - firstname: ["Marcel", "M."]
+    url: https://buesma.github.io/
+
 "Bretl":
   - firstname: ["Timothy", "T."]
     url: http://bretl.csl.illinois.edu/
@@ -109,6 +117,14 @@
 "Lin":
   - firstname: ["Wei-Che", "W.C."]
     url: https://www.linkedin.com/in/wei-che-lin-778aa6156/
+
+"Longhini":
+  - firstname: ["Alberta", "A."]
+    url: https://albilo17.github.io/
+
+"Kragic":
+  - firstname: ["Danica", "D."]
+    url: https://www.csc.kth.se/~danik/
 
 "Martkamjan":
   - firstname: ["Chawalwat", "C."]
