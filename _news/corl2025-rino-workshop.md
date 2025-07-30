@@ -11,6 +11,10 @@ I co-organized a Conference on Robot Learning (CoRL) 2025 workshop! The workshop
 It was fun to co-organize this conference with an all-star team of Ph.D. students and Postdoctoral Scholars from all around the world, many of whom I first met at previous global robotics events (e.g., the [KTH RPL Summer School](https://summer-school.rpl.eecs.kth.se/) and the IEEE ICRA [Deformables Workshops](https://github.com/deformable-workshop)). Thank you to [Marcel Büsching](https://buesma.github.io/), [Jad Abou-Chakra](https://jadchakra.github.io/), [Alessio Caporali](https://www.unibo.it/sitoweb/alessio.caporali/cv-en), [Bardienus Duisterhof](https://www.bart-ai.com/), [Alberta Longhini](https://albilo17.github.io/), [Jens Lundell](https://jenslundell.ai/), [Priya Sundaresan](https://priyasundaresan.github.io/), [Mingrui Yu](https://mingrui-yu.github.io/), and [Kaifeng Zhang](https://kywind.github.io/) for making this event so great!
 
 <a href="https://rino-workshop.github.io" target="_blank" rel="noopener">
-  <img src="{{ "/assets/img/corl-rino-flyer.png" | relative_url }}"
-       alt="CoRL RINO Workshop Announcement Flyer" />
+  <img 
+    src="{{ "/assets/img/corl-rino-flyer.png" | relative_url }}"
+    alt="CoRL RINO Workshop Announcement Flyer"
+    class="img-fluid mx-auto d-block"
+    style="width:100%; height:auto;"
+  />
 </a>
