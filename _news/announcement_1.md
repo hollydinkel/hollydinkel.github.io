@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2023-10-01 12:00:00-0000
+date: 2023-10-01
 inline: true
 related_posts: false
 ---
 
-[Dinkel among 40 participants in MIT Aero/Astro Future Leaders in Aerospace Symposium](https://aeroastro.mit.edu/future-leaders-in-aerospace/schedule-at-a-glance/)
+[I participated in the MIT Aero/Astro Future Leaders in Aerospace Symposium in Boston, USA 🇺🇸](https://aeroastro.mit.edu/future-leaders-in-aerospace/schedule-at-a-glance/)

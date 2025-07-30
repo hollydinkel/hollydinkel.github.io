@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2021-07-09 07:59:00-0400
+date: 2021-07-09
 inline: true
 related_posts: false
 ---
 
-[AE graduate student Holly Dinkel awarded out-of-this-world opportunity](https://aerospace.illinois.edu/news/43380)
+[I was awarded a NASA Space Technology Graduate Research Opportunity for 2021-2025](https://aerospace.illinois.edu/news/43380)

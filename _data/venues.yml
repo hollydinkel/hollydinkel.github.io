@@ -17,3 +17,7 @@
 "RSS":
   url: https://roboticsconference.org/
   color: "#D03D09"
+
+"RSS":
+  url: https://corl.org/
+  color: "#7307b2"
