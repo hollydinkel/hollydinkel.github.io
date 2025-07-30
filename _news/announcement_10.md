@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I chaired the Rendezvous, Proximity Operations, and Docking sessions at the AAS/AIAA Space Flight Mechanics Meeting in Lihue, USA 🇺🇸
+I chaired the Rendezvous, Proximity Operations, and Docking sessions at the AAS/AIAA Space Flight Mechanics Meeting in Līhuʻe, USA 🇺🇸
