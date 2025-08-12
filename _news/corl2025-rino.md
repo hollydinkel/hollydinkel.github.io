@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2025-08-11
+date: 2025-08-12
 inline: false
 related_posts: false
 title: I am co-organizing the Conference on Robot Learning (CoRL) RINO Workshop in Seoul, Korea 🇰🇷
