@@ -90,9 +90,17 @@
   - firstname: ["Zhe", "Z."]
     url: https://tedhuang96.github.io/
 
+"Jin":
+  - firstname: ["Shutong", "S."]
+    url: https://shutongjin.github.io/
+
 "Johnson":
   - firstname: ["Rolland", "R."]
     url: https://www.linkedin.com/in/rolland-johnson-99266767
+
+"Kaliff":
+  - firstname: ["Axel", "A."]
+    url: https://se.linkedin.com/in/axel-kaliff-a3058bb5
 
 "Kazakevich":
   - firstname: ["Grigory", "G."]
@@ -154,6 +162,10 @@
   - firstname: ["Raghavendra", "R."]
     url: https://www.rsnavaratna.com/
 
+"Pokorny":
+  - firstname: ["Florian T.", "F. T.", "F.T."]
+    url: https://www.csc.kth.se/~fpokorny/
+
 "Santos": 
   - firstname: ["Jamie", "J."]
     url: https://www.linkedin.com/in/jamiecsantos/
@@ -174,6 +186,10 @@
   - firstname: ["Alvin", "A."]
     url: https://en.wikipedia.org/wiki/Alvin_V._Tollestrup
 
+"Wang":
+  - firstname: ["Ruiyu", "R."]
+    url: https://ruiyuwang.github.io/
+
 "Xiang":
   - firstname: ["Jingyi", "J."]
     url: https://jingyi-xiang.github.io/
@@ -181,6 +197,10 @@
 "Yonehara":
   - firstname: ["Katsuya", "K."]
     url: https://www.linkedin.com/in/katsuya-yonehara-46b14965/
+
+"Zahid":
+  - firstname: ["Muhammad", "M."]
+    url: https://se.linkedin.com/in/zahid-muhammad
 
 "Zhao":
   - firstname: ["Harry", "H."]
