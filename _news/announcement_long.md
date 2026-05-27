@@ -1,7 +1,7 @@
-<!-- ---
+---
 layout: post
 title: A long announcement with details
-date: 20z-11-07 16:11:00-0400
+date: 2020-11-07
 inline: false
 related_posts: false
 ---

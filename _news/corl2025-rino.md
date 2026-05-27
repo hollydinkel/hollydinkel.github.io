@@ -3,7 +3,7 @@ layout: post
 date: 2025-08-12
 inline: false
 related_posts: false
-title: I am co-organizing the Conference on Robot Learning (CoRL) RINO Workshop in Seoul, Korea 🇰🇷
+title: I am co-organizing the Representing and Interacting with Non-Rigid Objects Workshop at CoRL in Seoul, Korea 🇰🇷
 ---
 
 I am co-organizing a Conference on Robot Learning (CoRL) 2025 workshop! The workshop is [**Beyond Rigid Worlds: Representing and Interacting with Non‑Rigid Objects (RINO)**](https://rino-workshop.github.io). This year CoRL accepted only 42% of the proposed workshops, and its reputation continues to grow as a leading venue for embodied intelligence--it currently [ranks #18 in AI overall](https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_artificialintelligence), and it would rank [#3 in robotics](https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_robotics) by h5-index if categorized accordingly. This workshop aimed to build connections among top talent and leaders in robotics and AI to develop the academic and industry ecosystem around robotic interaction with non-rigid objects.

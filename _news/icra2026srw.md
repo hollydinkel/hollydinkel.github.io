@@ -3,7 +3,7 @@ layout: post
 date: 2026-01-10
 inline: false
 related_posts: false
-title: I am co-organizing the Intelligent Space Robotics and Systems Workshop at the IEEE International Conference on Robotics and Automation in Vienna, Austria 🇦🇹
+title: I am co-organizing the Intelligent Space Robotics and Systems Workshop at ICRA in Vienna, Austria 🇦🇹
 ---
 
 I am co-organizing an IEEE International Conference on Robotics and Automation (ICRA) 2026 workshop! The workshop is [**Intelligent Space Robotics and Systems**](https://space-robotics-workshop.github.io/icra2026/). This year ICRA accepted only 44% of the proposed workshops, and it remains the world's leading venue for embodied intelligence, currently ranking as the world's [#1 robotics conference](https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng_robotics) by h5-index. This workshop aims to promote scientific and technical progress in off-world autonomy!
